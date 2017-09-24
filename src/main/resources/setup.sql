@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS `log_data` (
      gateway_id VARCHAR(256) NOT NULL,
      country VARCHAR(256) NOT NULL,
      status VARCHAR(256) NOT NULL,
-     price DECIMAL(12, 2) NOT NULL,
-     cost DECIMAL(12, 2) NOT NULL,
+     price DECIMAL(12, 6) NOT NULL,
+     cost DECIMAL(12, 6) NOT NULL,
      PRIMARY KEY(id)
  );
 
